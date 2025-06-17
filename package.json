@@ -5,15 +5,15 @@
   "author": "zeon.studio",
   "license": "MIT",
   "type": "module",
-  "packageManager": "yarn@1.22.22",
+  "packageManager": "pnpm@9.15.4",
   "scripts": {
-    "dev": "yarn generate-json && astro dev",
-    "build": "yarn generate-json && astro build",
+    "dev": "pnpm run generate-json && astro dev",
+    "build": "pnpm run generate-json && astro build",
     "preview": "astro preview",
     "check": "astro check",
     "format": "prettier -w ./src",
     "generate-json": "node scripts/jsonGenerator.js",
-    "remove-darkmode": "node scripts/removeDarkmode.js && yarn format"
+    "remove-darkmode": "node scripts/removeDarkmode.js && pnpm run format"
   },
   "dependencies": {
     "@astrojs/check": "0.9.4",
