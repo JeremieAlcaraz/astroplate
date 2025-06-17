@@ -69,25 +69,25 @@
 
 - astro v5.7+
 - node v20.10+
-- yarn v1.22+
+- pnpm v9+
 - tailwind v4+
 
 ### 👉 Install Dependencies
 
 ```bash
-yarn install
+pnpm install
 ```
 
 ### 👉 Development Command
 
 ```bash
-yarn run dev
+pnpm run dev
 ```
 
 ### 👉 Build Command
 
 ```bash
-yarn run build
+pnpm run build
 ```
 
 ### 👉 Build and Run With Docker
